@@ -1,3 +1,6 @@
 #emailpara {
   display: none;
 }
+fieldset p>#subscribe:checked + #email {
+  display: inline;
+}

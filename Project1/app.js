@@ -1,7 +1,10 @@
 function toggleEmail() {
   var x = document.querySelector("#subscribe");
+  var y = document.getElementById("emailpara");
   if (x.checked) {
-    document.getElementById("emailpara").style.display = "inline";
+    y.style.display = "inline";
+  } else {
+    y.style.display = "none";
   }
 }
 
